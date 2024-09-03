@@ -15,6 +15,7 @@
 		27F801FB2C87ACED0052A005 /* WeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F801FA2C87ACED0052A005 /* WeatherAppUITests.swift */; };
 		27F801FD2C87ACED0052A005 /* WeatherAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F801FC2C87ACED0052A005 /* WeatherAppUITestsLaunchTests.swift */; };
 		27F8020B2C87AD700052A005 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8020A2C87AD700052A005 /* LocationManager.swift */; };
+		27F8020E2C87B04C0052A005 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F8020D2C87B04C0052A005 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		27F801FA2C87ACED0052A005 /* WeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITests.swift; sourceTree = "<group>"; };
 		27F801FC2C87ACED0052A005 /* WeatherAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		27F8020A2C87AD700052A005 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		27F8020D2C87B04C0052A005 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				27F801E12C87ACEB0052A005 /* ContentView.swift */,
+				27F8020D2C87B04C0052A005 /* WelcomeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				27F801E22C87ACEB0052A005 /* ContentView.swift in Sources */,
 				27F801E02C87ACEB0052A005 /* WeatherAppApp.swift in Sources */,
 				27F8020B2C87AD700052A005 /* LocationManager.swift in Sources */,
+				27F8020E2C87B04C0052A005 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
