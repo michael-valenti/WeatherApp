@@ -13,7 +13,19 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            WelcomeView().environmentObject(locationManager)
+            
+            if let location = locationManager.location{
+                Text("The coordinates of your location are:\(location.longitude),\(location.latitude)")
+            }
+            else {
+                if locationManager.isLoading {
+                    LoadingView()
+                }
+                else {
+                    WelcomeView().environmentObject(locationManager)
+                }
+            }
+            
         }
         
         .background(Color(hue: 0.685, saturation: 1.0, brightness: 0.995))
